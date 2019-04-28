@@ -78,8 +78,9 @@ WSGI_APPLICATION = 'Watcher.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'FitnessWatcher',
+        'NAME': 'srasool2$FitnessWatcher',
         'USER': 'root',
+        'PASSWORD': 'root',
     }
 }
 
