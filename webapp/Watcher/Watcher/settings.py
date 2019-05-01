@@ -25,7 +25,7 @@ SECRET_KEY = 'dc%oh&#l$9vaeiw=ki%8spxpuhmxt!fq-jnif%hfm_(xqngd93'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -78,8 +78,10 @@ WSGI_APPLICATION = 'Watcher.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'FitnessWatcher',
-        'USER': 'root',
+        'HOST':'srasool2.mysql.pythonanywhere-services.com',
+        'NAME': 'srasool2$FitnessWatcher',
+        'USER': 'srasool2',
+        'PASSWORD': 'root1234',
     }
 }
 
